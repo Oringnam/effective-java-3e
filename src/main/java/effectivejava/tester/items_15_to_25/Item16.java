@@ -4,6 +4,9 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * public class는 가변인자를 public으로 풀어주지 말 것!
+ */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
