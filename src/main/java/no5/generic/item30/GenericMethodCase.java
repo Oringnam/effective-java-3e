@@ -1,7 +1,12 @@
 package no5.generic.item30;
 
+import java.util.Collection;
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
 import java.util.Set;
+import org.junit.Test;
 
 /**
  * Created by Jin Won Park on 2018-12-05
@@ -39,4 +44,24 @@ public class GenericMethodCase {
         return result;
     }
 
+    /**
+     * 타입 추론이 일어나서 자동으로 매개변수의 값을 찾아 줌
+     */
+    @Test
+    public void typeChecker() {
+        Map<String, List<String>> test = newHashMap();
+    }
+
+    public static <K, V> HashMap<K,V> newHashMap() {
+        return new HashMap<>();
+    }
+
+
+    public static <E extends  Comparable<E>> E max(Collection<E> c) {
+        E result = null;
+
+        // do something
+
+        return result;
+    }
 }
