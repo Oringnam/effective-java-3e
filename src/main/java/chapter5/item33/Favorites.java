@@ -1,4 +1,4 @@
-package no5.generic.item33;
+package chapter5.item33;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package no5.generic.item32;
+package chapter5.item32;
 
 import java.util.ArrayList;
 import java.util.List;

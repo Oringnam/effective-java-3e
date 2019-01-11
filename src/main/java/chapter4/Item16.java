@@ -1,4 +1,4 @@
-package effectivejava.tester.items_15_to_25;
+package chapter4;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

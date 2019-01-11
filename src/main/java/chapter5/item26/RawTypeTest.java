@@ -1,4 +1,4 @@
-package no5.generic.item26;
+package chapter5.item26;
 
 import java.util.ArrayList;
 import java.util.HashSet;

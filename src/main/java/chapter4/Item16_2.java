@@ -1,4 +1,4 @@
-package effectivejava.tester.items_15_to_25;
+package chapter4;
 
 /**
  * package-private class는 가변인자를 public으로 제공해도 무방

@@ -1,4 +1,4 @@
-package effectivejava.tester.items_15_to_25;
+package chapter4;
 
 import java.util.Arrays;
 import java.util.Collections;

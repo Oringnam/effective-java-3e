@@ -1,4 +1,4 @@
-package no7.lambda.item42;
+package chapter7.item42;
 
 import org.junit.Test;
 

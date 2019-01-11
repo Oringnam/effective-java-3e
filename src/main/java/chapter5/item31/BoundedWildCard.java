@@ -1,4 +1,4 @@
-package no5.generic.item31;
+package chapter5.item31;
 
 import java.util.Collection;
 import java.util.Stack;
